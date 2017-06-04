@@ -1,0 +1,49 @@
+.header{
+     width: 100%;
+     height: 50px;
+     background-color: red;
+}
+.logo{
+	width: 50px;
+    height: 40px;
+    float: left;
+    padding-right: 120px;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.search input{
+	width: 220px;
+	height: 30px;
+	float: left;
+}
+body{
+	width: 100%;
+	margin: 0;
+}
+.wraper{
+	width: 1170px;
+	margin: auto;
+}
+.catagori{
+	background-color: black;
+	width: 100%;
+	height: 45px;
+	float: right;
+}
+.menu{
+	float: right;
+}
+.menu ul{
+	list-style: none;
+}
+.menu li{
+	display: inline-block;
+
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 0px 15px 0px 10px;
+}
