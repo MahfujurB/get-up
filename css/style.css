@@ -25,9 +25,10 @@ img{
 	float: left;
 }
 .shopping_cart{
-	width: 120px;
+	width: 150px;
     height: 38px;
     float: left;
+    margin-left: 85px;
 
 }
 .cart{
@@ -35,15 +36,17 @@ img{
     height: 25px;
     background-color: #5ab210;
     float: left;
+    margin-top: 3px;
 
 }
 .text{
 	float: left;
+	margin: -28px 0px 0px 45px;
 
 }
 
 body{
-	font-family: 'Vibur', cursive;
+	font-family: sans-serif;
 	width: 100%;
 	margin: 0;
 }
