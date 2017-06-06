@@ -113,12 +113,13 @@ body{
     height: 210px;
 }
 .p-image{
-	width: 170px;
-	height:276px;
+	width: 172px;
+	height:359px;
 	float: left;
 	margin-left: 65px;
     margin-right: 55px;
     transition: all 0.5s ease;
+    position: relative;
 }
 .p-image:hover{
 	transform: scale(1.05);
@@ -127,4 +128,44 @@ body{
 .p-image img{
 	width: 75%;
 	margin: 15px 0px 0px 20px;
+}
+.p-image p{
+	margin-left: 35px;
+	color: #5ab210;
+}
+.sale{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	background-color: #5ab210;
+    border-radius: 25px;
+    padding: 6px 0px 0px 6px;
+    color: white;
+    top: -10px;
+    left: -10px;
+    line-height: 28px;
+}
+.fa-cart-plus{
+     border-radius: 5px;
+    background-color: #5ab210;
+    width: 23px;
+    height: 23px;
+    padding: 5px 0px 0px 5px;
+    color: white;
+}
+.fa-gratipay{
+	 border-radius: 5px;
+    background-color: #5ab210;
+    width: 23px;
+    height: 23px;
+    padding: 5px 0px 0px 7px;
+    color: white;
+}
+.fa-recycle{
+	 border-radius: 5px;
+    background-color: #5ab210;
+    width: 23px;
+    height: 23px;
+    padding: 5px 0px 0px 5px;
+    color: white;
 }
